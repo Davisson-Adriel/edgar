@@ -1,0 +1,14 @@
+[
+  {
+    "id": "tarea_2",
+    "descripcion": "hola",
+    "completado": false,
+    "fechaCreacion": "2025-09-18T13:23:10.485Z"
+  },
+  {
+    "id": "tarea_3",
+    "descripcion": "llevar el perro a pasear",
+    "completado": false,
+    "fechaCreacion": "2025-09-18T13:23:58.062Z"
+  }
+]
