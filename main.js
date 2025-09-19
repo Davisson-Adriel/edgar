@@ -68,7 +68,16 @@ const main = async () => {
         break;
     }
 
-    if (opt !== '0') await new Promise(r => setTimeout(r, 1500));
+    if (opt !== '0') {
+      console.log(chalk.blue('\nPresiona Enter para continuar...'));
+      await new Promise(resolve => {
+        process.stdin.resume(); // Asegura que stdin esté activo
+        process.stdin.once('data', () => {
+          process.stdin.pause(); // Pausa stdin después de recibir la entrada
+          resolve();
+        });
+      });
+    }
   } while (opt !== '0');
   console.log(chalk.blue('\n¡Hasta la próxima, Don Edgar!\n'));
 };

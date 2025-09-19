@@ -10,5 +10,17 @@
     "descripcion": "llevar el perro a pasear",
     "completado": false,
     "fechaCreacion": "2025-09-18T13:23:58.062Z"
+  },
+  {
+    "id": "tarea_1",
+    "descripcion": "gay",
+    "completado": false,
+    "fechaCreacion": "2025-09-19T11:12:25.012Z"
+  },
+  {
+    "id": "tarea_1",
+    "descripcion": "fewfe",
+    "completado": false,
+    "fechaCreacion": "2025-09-19T11:27:21.890Z"
   }
 ]
